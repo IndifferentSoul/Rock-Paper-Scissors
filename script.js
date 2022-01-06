@@ -52,6 +52,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
+    //Repeat the playRound function 5 times to stimulate 5 different Rock Paper Scissor games
     for (let i = 1; i < 6; i++) {
         console.log(`Round number: ${i}`)
         playRound(playerPlay(), computerPlay())
